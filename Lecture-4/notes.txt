@@ -1,0 +1,8 @@
+Converting variable types
+
+int x = 8;
+string y = "7";
+double z = 1000;
+
+Console.Writeln(x + Convert.ToInt16(y));
+Console.Writeln("My number is: " + z.ToString());
