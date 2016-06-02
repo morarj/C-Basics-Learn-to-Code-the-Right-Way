@@ -1,0 +1,19 @@
+Operators
+
+int x = 9;
+int y = 12;
+
+Console.WriteLine(x + y);
+Console.WriteLine(x * y);
+Console.WriteLine(x / y);
+
+double x = 9;
+double y = 12;
+
+Console.WriteLine(x / y);
+
+
+string name = "Huehue";
+string lastName = "Lolol";
+
+Console.WriteLine(name + " " + lastName);
