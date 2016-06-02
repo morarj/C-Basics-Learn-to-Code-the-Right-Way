@@ -1,0 +1,12 @@
+Loops
+
+int i = 0;
+
+while(i <= 1000) {
+    Console.WriteLine("Value of i = " + i.ToString());
+    i++;
+}
+
+for(int j = 0; j <= 100; j++) {
+    Console.WriteLine("i = " + j.ToString());
+}
