@@ -1,0 +1,14 @@
+Setup development enviroment
+
+www.csharppad.com
+
+Using Variables (useCamelCase)
+
+      TYPE    NAME
+      int     myAge = 24;
+      float   someDecimal = 36.87f;
+      double  someDouble  = 33.45;
+      bool    trueOrFalse = true;
+const string  someString  = "Hello World";
+
+myAge = 25;
