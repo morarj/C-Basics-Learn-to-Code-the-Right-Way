@@ -1,0 +1,23 @@
+Comparisons
+
+int x = 15;
+int y = 30;
+
+if(x == y) {
+    Console.WriteLine("Numbers are equal");
+}
+else if(x != y){
+    Console.WriteLine("Numbers are different");
+}
+
+switch(x) {
+    case 10:
+        Console.WriteLine("Equal to 10.");
+        break;
+    case 15:
+        Console.WriteLine("Equal to 15");
+        break;
+    default:
+        Console.WriteLine("Whaaaaaa?");
+        break;
+}
