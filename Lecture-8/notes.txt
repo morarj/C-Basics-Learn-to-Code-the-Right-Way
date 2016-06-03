@@ -1,0 +1,7 @@
+Methods
+
+public void addNumbers(int x, int y) {
+    Console.WriteLine((x + y).ToString());
+}
+
+addNumbers(10, 20);
