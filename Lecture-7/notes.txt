@@ -1,0 +1,7 @@
+Arrays
+
+string[] array = new string[] {"Learn", "app", "development"};
+int[] xArray = new int[] {2, 3, 4, 6};
+
+Console.WriteLine(array[1]);
+Console.WriteLine(xArray.Length.ToString());
