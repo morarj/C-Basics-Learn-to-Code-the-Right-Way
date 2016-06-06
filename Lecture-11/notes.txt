@@ -1,0 +1,11 @@
+Exceptions
+
+string name = "Hugo Morales Arjón";
+int x;
+
+try {
+    x = Convert.ToInt16(name);
+}
+catch (Exception e) {
+    Console.WriteLine("Error: " + e.Message);
+}
