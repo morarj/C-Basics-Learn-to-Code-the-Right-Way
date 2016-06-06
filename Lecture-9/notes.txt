@@ -1,0 +1,24 @@
+Classes
+
+public class Car {
+    int topSpeed;
+    string color;
+
+    // Constructor
+    public Car(int speed, string color) {
+        this.topSpeed = speed;
+        this.color = color;
+    }
+
+    public int getSpeed() {
+        return topSpeed;
+    }
+
+    public void setColor(string newColor) {
+        this.color = newColor;
+    }
+}
+
+Car newCar = new Car(100, "Black");
+newCar.setColor("Blue");
+Console.WriteLine(newCar.getSpeed().toString());
