@@ -1,0 +1,33 @@
+Inheritance
+
+public class Car {
+    int topSpeed = 100;
+    string color = "Black";
+
+    public Car() {
+
+    }
+
+    public int getTopSpeed() {
+        return this.topSpeed;
+    }
+
+    public string getColor() {
+        return this.color;
+    }
+}
+
+public class Truck: Car {
+    int size = "large";
+
+    public Truck() {
+    
+    }
+
+    public int getSize() {
+        return size;
+    }
+}
+
+Truck newTruck = new Truck();
+Console.WriteLine(newTruck.getTopSpeed());
